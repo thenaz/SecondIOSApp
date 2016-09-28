@@ -20,6 +20,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+let currentDate = NSDate()
 
+    
+    let date = UIDatePicker()
+    date.datePickerMode = UIDatePickerMode.Date
+    date.backgroundColor = UIColor.greenColor()
+    date
 }
 
